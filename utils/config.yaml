@@ -1,0 +1,14 @@
+record_id: 80df8606fcdb4b2bae1656f0dc6db8ba
+base_url: https://b2share.eudat.eu
+out_dir: downloads
+num_threads: 2
+chunk: 524288
+max_retries: 10
+backoff_start: 10
+
+# ← ここに指定するファイルだけが対象になります
+only:
+  - Fibres.tar
+  - Porous_Sponge.tar
+  - Films_Coated_Surface.tar
+  - Tips.tar
